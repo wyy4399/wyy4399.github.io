@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Jerry Wang's Homepage</title>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yuyang Wang</title>
   <style>
     body {
       font-family: sans-serif;
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       align-items: center;
-      padding: 40px;
-      background-color: #f4f4f4;
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+      background-color: #fff;
     }
-    h1 {
-      margin-bottom: 10px;
-    }
-    a {
-      display: block;
-      margin: 10px;
-      font-size: 18px;
+    a, .more {
       text-decoration: none;
-      color: #333;
-      border: 1px solid #ccc;
-      padding: 8px 20px;
-      border-radius: 8px;
-      background: white;
+      color: black;
+      font-size: 1.6rem;
+      margin: 12px 0;
+      transition: color 0.3s;
     }
     a:hover {
-      background: #eee;
+      color: #007acc;
+    }
+    .more {
+      font-style: italic;
+      cursor: default;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to Jerry Wang's Website</h1>
-  <img src="DSC03889-1.jpg" alt="My photo" width="600">
-  <a href="https://cv.jerrywang.site" target="_blank">📄 View My CV</a>
-  <a href="https://gallery.jerrywang.site" target="_blank">🖼️ View My Gallery</a>
+  <a>Yuyang Wang</a>
+  <a href="/gallery.jerrywang.site">a Photographer</a>
+  <a href="/cv.jerrywang.site">a Data scientist</a>
+  <a href="/https://steamcommunity.com/profiles/76561198809678224/">a Gamer</a>
+  <div class="more">...and more</div>
 </body>
 </html>
