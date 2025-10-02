@@ -1,7 +1,11 @@
-# 2025-10-02
+---
+title: test
+layout: page
+---
 
-今天写的第一篇 Blog。只是想安静地留下一点记录。
+# test
 
-![晚霞](blog/assets/捕获.PNG)
+test blog
 
-晚霞真的很美，就像泼上去的颜料。
+![test](blog/assets/捕获.PNG)
+test test
